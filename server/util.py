@@ -86,10 +86,10 @@ def load_saved_artifacts():
 # main method
 if __name__ == '__main__':
     load_saved_artifacts()
-    print(classify_image(get_b64_test_image_for_virat()))
+    # print(classify_image(get_b64_test_image_for_virat()))
     # print(classify_image(None, 'server/test_images/virat1.jpg'))
     # print(classify_image(None, 'server/test_images/virat2.jpg'))
-    print(classify_image(None, 'server/test_images/virat3.jpg'))
+    # print(classify_image(None, 'server/test_images/virat3.jpg'))
     # print(classify_image(None, 'server/test_images/serena1.jpg'))
     # print(classify_image(None, 'server/test_images/serena2.jpg'))
     # print(classify_image(None, 'server/test_images/sharapova1.jpg'))
